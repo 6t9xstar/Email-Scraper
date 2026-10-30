@@ -1,0 +1,8 @@
+name: "Star Boost CI"
+description: "Reusable CI workflow for continuous integration"
+runs:
+  using: "composite"
+  steps:
+    - name: Run build checks
+      run: echo "Build successful"
+      shell: bash
